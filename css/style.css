@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+  .contenitore{
+  position: relative;
+  margin: 5px auto;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 8px;
+  width: 550px;
+  height: 400px;
+  text-align: center;
+  background-size: cover;
+}
+
+.roma{
+  background-image: url("../img/roma.jpg");
+}
+
+.copenaghen{
+  background-image: url("../img/copenaghen.jpg");
+}
+
+.tokyo{
+  background-image: url("../img/tokyo.jpg");
+}
+
+
+.layover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+
+
+.titolo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: 2px 2px 4px #000;
+}
